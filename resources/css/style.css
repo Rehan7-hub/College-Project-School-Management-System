@@ -1,0 +1,215 @@
+  .null-div{
+	/*primary-color(backgrounds): #8ecae6
+  secondary-color(hovers): #219ebc
+  contrast-color(list texts): #023047
+  contrast-color-2(buttons/onclick): #fb8500*/
+	color:#8ecae6, #219ebc ,#023047, #fb8500;
+  }
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+html,body{
+	font-size: 16px;
+	text-rendering:optimizeLegibility;
+	font-family: 'Work Sans','Arial',Sans-serif;
+}
+
+header{
+	
+	background-image:-webkit-linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.7)),url(../img/cover-pic-1.jpg);
+	background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.7)),url(../img/cover-pic-1.jpg);
+	background-color: #8ecae6;
+	height:100vh;
+	background-size: cover;
+	background-position: center;
+	position:relative;
+}
+
+.navigation{
+	background-color: #8ecae6;
+	height:620px;
+	width:27%;
+	display:inline-block;
+	position: absolute;
+	top:10px;
+	left:10px;
+	z-index:20;
+	
+}
+
+.nav-logo-text{
+	display:block;
+	text-align: center;
+	text-shadow: 2px 2px 3px #219ebc;
+}
+
+.main-nav{
+	text-align: center;
+}
+
+.nav-logo-text img{
+	width:150px;
+	height:150px;
+	margin-top: 3px;
+	translate: 10px 0;
+}
+
+.nav-logo-text h5{
+	color:#023047;
+	letter-spacing: 2px;
+	font-weight: 300;
+}
+
+ .menu-bar{
+	padding:0;
+	width:37px;
+	height:37px;
+	display:block;
+	float:right;
+	margin-top:5px;
+	margin-right:5px;
+	border: 3px solid #fff;
+	border-radius: 100%;
+	background-color: #fb8500;
+	transition: border-color .5s;
+ }
+ .menu-bar .fa-bars{
+	color:#fff;
+	display:block;
+	float:right;
+	margin-top:5px;
+	margin-right:5px;
+	font-size: 150%;
+	transition:-webkit-transform 0.5s;
+}
+
+.menu-bar:hover,
+.menu-bar:active{
+	color:#023047;
+	border-color: #023047;
+ }
+ .menu-bar .fa-bars:hover,
+.menu-bar .fa-bars:active{
+	color:#023047;
+}
+
+ .col{
+	border:2px solid none;
+ }
+
+ .main-nav .row .span_3_of_4
+ {
+	text-align: right;
+	
+	padding-right:3%
+
+ }
+
+ .main-nav .row .span_1_of_4{
+	text-align: left;
+	font-size: 120%;
+}
+
+ .main-nav .row:link,
+ .main-nav .row:visited {
+	margin:0% 5%;
+	border-radius: 10px;
+ }
+
+ .main-nav .row:hover,
+ .main-nav .row:active{
+	background-color:#219ebc;
+	margin:0% 3%;
+	border-radius: 10px;
+ }
+
+ .top-nav {
+	height:40px;
+	display:inline-block;
+	width:70%;
+	position:absolute;
+	left:29%;
+	top:5px;
+	color:#023047;
+ }
+
+ .top-nav .col  p{
+	display:inline-block;
+ }
+
+ .top-nav .col:hover,
+ .top-nav .col:active {
+	color:#fb8500;
+ }
+
+ .left-slide{
+	display: block;
+	color:#219ebc;
+	width:auto;
+	height:auto;
+	padding:0 5px;
+	font-size: 250%;
+	top:45%;
+	position:absolute;
+	text-align:left;
+	z-index: 10;
+	opacity: .8;
+}
+.right-slide{
+	display: block;
+	color:#219ebc;
+	width:auto;
+	height:auto;
+	padding:0 5px;
+	font-size: 250%;
+	top:45%;
+	position:absolute;
+	text-align:right;
+	right:10px;
+	z-index:10;
+	opacity: .8;
+}
+.left-slide :hover,
+.left-slide :active,
+{
+	
+}
+.bottom-nav {
+	position:absolute;
+	margin:0 0 0 15px;
+	width: 87%;
+	bottom: 13px;
+	right:0;
+}
+.bottom-nav .col{
+	height:120px;
+	width:120px;
+	background-color: #fb8500;
+	border-radius: 100%;
+	margin:0 40px;
+	padding:25px 10px;
+	text-align: center;
+	font-weight:600;
+	color: #fff;
+	text-shadow:0 0 3px #023047;
+	transition: border-radius 0.5s;	
+	border: 5px solid #fff;
+	
+}
+
+.bottom-nav .col:hover,
+.bottom-nav .col:active {
+	color:#023047;
+	border: 5px solid #023047;
+	border-radius: 35% 65% 16% 84% / 71% 22% 78% 29% ;
+}
+
+.bottom-nav .col i{
+	font-size: 250%;
+}
+.bottom-nav .fee-payment-btn {
+	margin-right:0;
+}
